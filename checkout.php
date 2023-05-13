@@ -58,7 +58,7 @@ paypal.Button.render({
  
         //app's client id's
 	client: {
-        sandbox:    'AdDNu0ZwC3bqzdjiiQlmQ4BRJsOarwyMVD_L4YQPrQm4ASuBg4bV5ZoH-uveg8K_l9JLCmipuiKt4fxn',
+        sandbox:    'AUpaTtvPdpwKRNkSDQbGLFH0Cqh1qpABodsYwCDo0iFndDnd4qQlgK2HWjZ7mUp5zdistg699TkMpYae',
         //production: 'AaBHKJFEej4V6yaArjzSx9cuf-UYesQYKqynQVCdBlKuZKawDDzFyuQdidPOBSGEhWaNQnnvfzuFB9SM'
     },
  
