@@ -1,4 +1,6 @@
 <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script src="https://checkout.stripe.com/checkout.js"></script>
+
 <?php 
 $total = 0;
     $qry = $conn->query("SELECT c.*,p.title,i.price,p.id as pid from `cart` c inner join `inventory` i on i.id=c.inventory_id inner join products p on p.id = i.product_id where c.client_id = ".$_settings->userdata('id'));
@@ -58,7 +60,7 @@ paypal.Button.render({
  
         //app's client id's
 	client: {
-        sandbox:    'AUpaTtvPdpwKRNkSDQbGLFH0Cqh1qpABodsYwCDo0iFndDnd4qQlgK2HWjZ7mUp5zdistg699TkMpYae',
+        sandbox:    'AXpm8L5tVWvgKrb8A02pJLpaX41VJKxlZrqFZg9pS2hYF6VVgq2yRDO4huRupSM4TtgVr6XmFisa1Xoz',
         //production: 'AaBHKJFEej4V6yaArjzSx9cuf-UYesQYKqynQVCdBlKuZKawDDzFyuQdidPOBSGEhWaNQnnvfzuFB9SM'
     },
  
