@@ -12,7 +12,7 @@ $total = 0;
             <div class="card-body"></div>
             <h3 class="text-center"><b>Checkout</b></h3>
             <hr class="border-dark">
-            <form action="create-checkout-session.php" id="place_order">
+            <form action="public/payment.php" id="place_order" method="POST">
                 <input type="hidden" name="amount" value="<?php echo $total ?>">
                 <input type="hidden" name="payment_method" value="card">
                 <input type="hidden" name="paid" value="0">
